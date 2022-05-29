@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "semaforos.h"
-
+//
 int main(int argc, char const *argv[])
 {
     int tenedor,x;
