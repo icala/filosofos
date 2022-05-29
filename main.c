@@ -15,15 +15,15 @@ int main()
 	inicializar(tenedor,4,1);
 
     if(fork()!=0){
-        execl("./filosofo1", NULL);
+        execl("./filosofo1.o", NULL);
     }else     if(fork()!=0){
-        execl("./filosofo2",NULL);
+        execl("./filosofo2.o",NULL);
     }else     if(fork()!=0){
-        execl("./filosofo3",NULL);
+        execl("./filosofo3.o",NULL);
     }else     if(fork()!=0){
-        execl("./filosofo4",NULL);
+        execl("./filosofo4.o",NULL);
     }else     if(fork()!=0){
-        execl("./filosofo5",NULL);
+        execl("./filosofo5.o",NULL);
     }
 
 
